@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# ATM-Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description of the project:
+This repository demonstrates the implementation of a banking portal application, facilitating simple actions such as depositing and withdrawing funds from a bank account, with some validations where the withdraal can exceed the balance of the account. Thhis app is created by using react-bootstrap libraries. togetehr with the validation it was added some alert messages that pop up in the screeen whn the user reaches o$0- in their balance.
 
-## Available Scripts
+## How to Run:
+This project was initialized using the Create React App toolchain. If you're interested in learning how to start your own app from a toolchain, follow the steps from the section "Mastering React: A Step-by-Step Guide to Creating Your App with Toolchain Assistance" . Otherwise, simply fork this project and then clone it to your local machine. To visualize this app in the browser, navigate to your terminal, stand in the cloned file directory, and type 'npm start.' This will take you to your browser, allowing you to enjoy this cool application.
 
-In the project directory, you can run:
 
-### `npm start`
+## Roadmap of future improvements:
+There are numerous improvements and additions that can be implemented in this code. My goal is to introduce extra features to enhance interactivity of this bank protal, including the integration of Bootstrap React for morevstyling. Additionally, I plan to implement more specific validations, such as verifying the existence of the email. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## License information:
+MIT license.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Support
+If you have any questions, please don't hesitate to contact me julieth. Also I'm open to your ideas and suggestions, and I'm confident that our combined talents could lead to exciting and innovative results. If you're interested in discussing potential projects or exchanging ideas, please let me know.
 
-### `npm test`
+Let's start a conversation and see where our collaboration might take us.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Mastering React: A Step-by-Step Guide to Creating Your App with Toolchain Assistance:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Use the VS Code terminal with Git Bash after creating the directory and files for your React application (using toolchains), follow these steps. Ensure that, after creating the folder, you upload the Formik library and use NPM start to initialize your React app (note: you must be located in the directory of your new app). Also, there's no need to concern yourself with the multitude of folders and files that the React app creation process will download into your app directory. If you're a beginner, like myself, the only files you'll need to use are the `index.html` from the public folder and the `app.js` from the src folder—that's it. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 1.Step into the directory where you want your app to be located:
+cd name-of-app
 
-### `npm run eject`
+#### 2. Create a React app:
+npx create-react-app name-of-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 3. Install Formik:
+npm install formik --save
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 4.Start the React app:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Make sure to follow these steps in sequence, and remember to be in the directory of your new app when performing these actions. For more info go to the:[React Webpage](https://create-react-app.dev/docs/getting-started/)
